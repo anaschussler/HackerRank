@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountingValleys", "Counting
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesMatch", "SockertPair\SalesMatch.csproj", "{4107A9F4-9024-40A7-AF0B-EE8528091B4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DArrayDS", "2DArrayDS\2DArrayDS.csproj", "{621EFCDD-D76F-4E35-AFD0-AB7DCC185E4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4107A9F4-9024-40A7-AF0B-EE8528091B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4107A9F4-9024-40A7-AF0B-EE8528091B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4107A9F4-9024-40A7-AF0B-EE8528091B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621EFCDD-D76F-4E35-AFD0-AB7DCC185E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621EFCDD-D76F-4E35-AFD0-AB7DCC185E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621EFCDD-D76F-4E35-AFD0-AB7DCC185E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621EFCDD-D76F-4E35-AFD0-AB7DCC185E4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
