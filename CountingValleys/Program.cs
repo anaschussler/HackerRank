@@ -29,21 +29,20 @@ namespace CountingValleys
         public static int countingValleys(int steps, string path)
         {
             int valleys = 0;
-            int Pos=1, previousPos = 1;
+            int Pos = 1;
             for (int i = 0; i < steps - 1; i++)
             {
-                previousPos = Pos;
                 if (path[i].Equals('U'))
                     Pos++;
                 else
+                {
+                    if (Pos == 1)
+                        valleys++;
                     Pos--;
-
-                if (previousPos == 1 && Pos == 0)              
-                    valleys++;
+                }
             }
             return valleys;
         }
-
     }
     class Program
     {
